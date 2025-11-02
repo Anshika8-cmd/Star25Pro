@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rules</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Page-specific styles for About page */
+        .page-header {
+            padding: 100px 0 80px;
+            background: #0e0e1a;
+            text-align: center;
+            color: white;
+        }
+        .page-header h1 {
+            font-size: 3rem;
+            margin-bottom: 0;
+        }
+        .about-section {
+            padding: 80px 0;
+            background: #f5f5f5;
+        }
+        .about-section h2 {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            color: #0e0e1a;
+        }
+        .about-section h3 {
+            font-size: 1.5rem;
+            margin-top: 3rem;
+            margin-bottom: 1rem;
+            color: #0e0e1a;
+        }
+        .about-section p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #555;
+            margin-bottom: 1.5rem;
+        }
+        .about-section strong {
+            font-weight: 700;
+            color: #1a1a2e;
+        }
+        /* Divider line after sections */
+        .section-divider {
+            height: 1px;
+            background: #ddd;
+            margin: 50px 0;
+            width: 100%;
+        }
+
+        /* === ANIMATION CLASSES === */
+        .animated {
+            opacity: 0;
+            transform: translateY(60px);
+            transition: opacity 0.8s ease, transform 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+            will-change: opacity, transform;
+        }
+        .animated.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .section-divider.animated {
+            transition-delay: 0.1s;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <div class="logo">
+                        <img src="logo.png" alt="Star25Pro Logo" class="logo-image">
+                    </div>
+                    <ul class="nav-menu" id="navMenu">
+                        <li><a href="index.html" class="nav-link">Home</a></li>
+                        <li><a href="about.html" class="nav-link active">About</a></li>
+                        <li><a href="howtoplay.html" class="nav-link">How to play</a></li>
+                        <li><a href="legality.html" class="nav-link">Legality</a></li>
+                        <li><a href="rules.html" class="nav-link">Rules</a></li>
+                        <li><a href="contact.html" class="nav-link">Contact Us</a></li>
+                    </ul>
+                    <button class="hamburger" id="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="animated">Star25Pro - Rules & Regulations</h1>
+        </div>
+    </section>
+
+    <!-- About Content -->
+    <!-- <section class="about-section">
+        <div class="container">
+            <h2 class="animated">What We Do</h2>
+            <p class="animated"><strong>Star25Pro</strong> is an online fantasy game owned and operated by Dayasara Entertainment Private Limited. <strong>DPL11</strong> allows users to showcase their knowledge and interest in Cricket, apply their skills, and win prizes. Users can create a team of eleven players of their choice, who will score runs, take wickets, and earn points.</p>
+            <p class="animated">Not just as spectators, users can actively manage their teams.</p>
+            <p class="animated"><strong>DPL11</strong> is managed by a team of skilled professionals. To learn more about job opportunities, work culture, and life at Play Games24x7, visit our website.</p>
+            <div class="section-divider animated"></div>
+            <h3 class="animated">Our Contests</h3>
+            <p class="animated">Users can install the application from Google Play and create multiple teams for a single cricket match. They can experiment with different team combinations, select captains, predict the best player of the match, and choose their favorite bowlers, all-rounders, and wicketkeepers.</p>
+            <p class="animated">Users can also invite their friends and family to participate in contests.</p>
+            <div class="section-divider animated"></div>
+            <h3 class="animated">Entry Fees for Contests</h3>
+            <p class="animated">Each contest has a fixed entry fee determined by our management team. While users can create teams for free, an entry fee is required to join a contest. Each team entered will require an entry fee.</p>
+            <div class="section-divider animated"></div>
+            <h3 class="animated">Rewards</h3>
+            <p class="animated">Simply play based on your skills! If your team wins and secures the first rank, you will receive the allocated prize. However, if multiple users secure the same rank, the prize money will be distributed equally or on a pro-rata basis.</p>
+            <div class="section-divider animated"></div>
+            <h3 class="animated">Consolation Prizes</h3>
+            <p class="animated">We appreciate every player who participates, even if they don’t win a prize.<strong>Star25Pro<strong></strong> values your skills, efforts, and trust. That’s why we provide consolation prizes to users who join contests but don’t secure a winning rank. With us, there’s nothing to lose—it’s always a win-win!
+            All rewards, including winnings and consolation prizes, will be credited to the user's wallet, which they can withdraw anytime.</p>
+            <div class="section-divider animated"></div>
+            <h3 class="animated">Legal Position</h3>
+            <p class="animated"><strong>Is playing Star25Pro is legal</strong></p>
+            <p class="animated">
+Yes, it is absolutely safe. <strong>Star25Pro</strong> is a game of skill. Indian law clearly distinguishes between games of skill and games of chance. Unlike gambling, games that require skill are completely legal.
+All contests hosted by <strong>Star25Pro</strong> are carefully designed, and we strictly monitor the jurisdiction of prize winners to ensure compliance with the relevant laws in India.
+Users from the states of Assam, Sikkim, Nagaland, Odisha, Telangana, Andhra Pradesh, and Tamil Nadu are not allowed to play DPL11.
+For further information, please contact us at <a href="mailto:support@DPL11.com">support@DPL11.com</a>.
+            </p>
+        </div>
+    </section> -->
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container-xl">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <img src="logo.png" alt="Star25Pro Logo" class="footer-logo-image">
+                    </div>
+                    <p>Best fantasy sports platform in India.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About Us</a>
+                    <a href="howtoplay.html">How to Play</a>
+                    <a href="legality.html">Legality</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <a href="rules.html">Rules</a>
+                    <a href="contact.html">Contact Us</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Download App</h4>
+                    <button class="btn btn-primary">DOWNLOAD</button>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Star25Pro. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- === Scroll Reveal Animation Script === -->
+    <script>
+    // Simple scroll animation for ".animated" elements
+    function animateOnScroll() {
+        var elems = document.querySelectorAll('.animated');
+        var windowBottom = window.innerHeight + window.scrollY;
+        elems.forEach(function(elem) {
+            var elemTop = elem.getBoundingClientRect().top + window.scrollY;
+            if (windowBottom > elemTop + 40) {
+                elem.classList.add('visible');
+            } else {
+                elem.classList.remove('visible');
+            }
+        });
+    }
+    window.addEventListener('scroll', animateOnScroll);
+    window.addEventListener('DOMContentLoaded', animateOnScroll);
+    </script>
+    
+    <script src="script.js"></script>
+</body>
+</html>

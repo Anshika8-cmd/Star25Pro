@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to play - Star25Pro</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Page-specific styles for About page */
+        .page-header {
+            padding: 100px 0 80px;
+            background: #0e0e1a;
+            text-align: center;
+            color: white;
+        }
+        .page-header h1 {
+            font-size: 3rem;
+            margin-bottom: 0;
+        }
+        .about-section {
+            padding: 80px 0;
+            background: #f5f5f5;
+        }
+        .about-section h2 {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            color: #0e0e1a;
+        }
+        .about-section h3 {
+            font-size: 1.5rem;
+            margin-top: 3rem;
+            margin-bottom: 1rem;
+            color: #0e0e1a;
+        }
+        .about-section p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #555;
+            margin-bottom: 1.5rem;
+        }
+        .about-section strong {
+            font-weight: 700;
+            color: #1a1a2e;
+        }
+        /* Divider line after sections */
+        .section-divider {
+            height: 1px;
+            background: #ddd;
+            margin: 50px 0;
+            width: 100%;
+        }
+
+        /* === ANIMATION CLASSES === */
+        .animated {
+            opacity: 0;
+            transform: translateY(60px);
+            transition: opacity 0.8s ease, transform 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+            will-change: opacity, transform;
+        }
+        .animated.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .section-divider.animated {
+            transition-delay: 0.1s;
+        }
+        /* Team Combination Table Styling */
+.combination-table-wrapper {
+    margin: 40px 0;
+    overflow-x: auto;
+}
+
+.combination-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    font-size: 1.05rem;
+    margin-bottom: 20px;
+    box-shadow: 0 6px 20px rgba(34,34,34,0.05);
+}
+
+.combination-table th,
+.combination-table td {
+    padding: 14px 12px;
+    text-align: center;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.combination-table thead th {
+    background: #888;
+    color: #fff;
+    font-weight: 600;
+    border-bottom: 2px solid #e8e8e8;
+}
+
+.combination-table tbody tr:nth-child(even) {
+    background: #f5f5f5;
+}
+
+.combination-table tbody tr:hover {
+    background: #e0ebf8;
+    transition: background 0.2s;
+}
+
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <div class="logo">
+                        <img src="logo.png" alt="Star25Pro Logo" class="logo-image">
+                    </div>
+                    <ul class="nav-menu" id="navMenu">
+                        <li><a href="index.html" class="nav-link">Home</a></li>
+                        <li><a href="about.html" class="nav-link active">About</a></li>
+                        <li><a href="howtoplay.html" class="nav-link">How to play</a></li>
+                        <li><a href="legality.html" class="nav-link">Legality</a></li>
+                        <li><a href="rules.html" class="nav-link">Rules</a></li>
+                        <li><a href="contact.html" class="nav-link">Contact Us</a></li>
+                    </ul>
+                    <button class="hamburger" id="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="animated">How To Play</h1>
+        </div>
+    </section>
+
+    <!-- About Content -->
+    <section class="about-section">
+        <div class="container">
+            <h2 class="animated">Select a match</h2>
+            <p class="animated">Choose the match you want to play and show-off your skills</p>
+            <h2 class="animated">Cleverly Pick Your Playing 11</h2>
+            <p class="animated">Create your own team by selecting different players within a defined virtual credit point.</p>
+            <p class="animated">Using the below mentioned possible combinations create one of the best playing 11 team for yourself and increase your chances to become a winner.</p>
+            <div class="combination-table-wrapper animated">
+                <table class="combination-table">
+                    <thead>
+                        <tr>
+                            <th>Combination Type</th>
+                            <th>Wicket-Keeper</th>
+                            <th>Batsmen</th>
+                            <th>All Rounders</th>
+                            <th>Bowlers</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Combination 1</td>
+                            <td>1</td>
+                            <td>3</td>
+                            <td>1</td>
+                            <td>6</td>
+                        </tr>
+                        <tr>
+                            <td>Combination 2</td>
+                            <td>1</td>
+                            <td>4</td>
+                            <td>1</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>Combination 3</td>
+                            <td>1</td>
+                            <td>4</td>
+                            <td>2</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>Combination 4</td>
+                            <td>1</td>
+                            <td>5</td>
+                            <td>1</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>Combination 5</td>
+                            <td>1</td>
+                            <td>5</td>
+                            <td>2</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>Combination 6</td>
+                            <td>1</td>
+                            <td>6</td>
+                            <td>1</td>
+                            <td>3</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            
+            <h3 class="animated">Choose Your Captain & Vice Captain Cleverly</h3>
+            <p class="animated">Once you choose your playing 11,its time to choose your captain & vice captain that will help you earn extra points.</p>
+            <p class="animated">2x points for your Captain & 1.5x points by your Vice-Captain based on their on-field performance.</p>
+            <!-- <div class="section-divider animated"></div> -->
+            <h3 class="animated">One Match, Multiple Teams</h3>
+            <p class="animated">Increase your winning chances with Multiple Entries. Join a "Multiple Entry" League with a maximum of 6 different teams.</p>
+            <p class="animated">To stand out as a winner amongst other Your11 users, your Fantasy Cricket Team play a significant role. So, manage your team with utmost attention and intelligence as:</p>
+            <p class="animated"><strong>Multiple Teams:</strong> You can create a maximum of 6 teams for joining a single contest defined to be a “Multiple Entry(M)” contest.</p>
+            <p class="animated"><strong>Limited Budget:</strong> You need to create the best team with efficient players for scoring the highest aggregate of points.</p>
+            <p class="animated"><strong>Changes Allowed for Limited Time:</strong> You can make plenty of changes to your team but only until the match begins.</p>
+            <p class="animated"><strong>Your Players Define your Score:</strong> You are awarded with the points based on the on-field performance of your chosen players. So, your cricketing skill and analytical skill play a crucial role in your victory. Further, the Captain's score is counted as 2 times the actual scores and Vice Captain's score is counted as 1.5 times the actual score. So, choose your team, Captain, and Vice-Captain very wisely.</p>
+            <p class="animated">The users participating in the contest(s) or league(s) organized by Your11 can create as many as 6 teams.</p>
+            <!-- <div class="section-divider animated"></div> -->
+            <h3 class="animated">Become A Part of A League</h3>
+            <p class="animated">With your Playing 11 join a league or contest organized by Your11 to compete with other users or compete with your friends through a private league created by you or your friends.</p>
+            <!-- <div class="section-divider animated"></div> -->
+            <h3 class="animated">Become A Winner</h3>
+            <p class="animated">Use your skills cleverly to choose the best and win the contest(s) with the scores your created team achieve.</p>
+            <!-- <div class="section-divider animated"></div> -->
+            <h3 class="animated">Wallet</h3>
+            <p class="animated">For checking the amount in your Your11 account, click on menu on top right corner and choose the "Wallet" option from the menu. The details of your Your11 wallet will be displayed just as shown below:</p>
+            <p class="animated"><strong>Deposited</strong></p>
+            <p class="animated">The deposited amount in your Your11 account is the amount that has been added by you via different payment methods such as Credit card, Debit Card, Net Banking, and different wallets. The unutilized amount in your account cannot be withdrawn.</p>
+            <p class="animated">Winnings</p>
+            <p class="animated">Your winnings amount in your Your11 account is the amount that you have achieved or won by participating in different league(s) or contest(s). Your winnings amount present in your Your11 account can be easily withdrawn by clicking on "Withdraw" button. Also, you can join various leagues with the amount you win.</p>
+            <p class="animated">Bonus</p>
+            <p class="animated">The cash bonus amount in your Your11 account can be defined as the amount awarded to the users by Your11 under various schemes and different promotional offers. The cash bonus available in your Your11 can only be used to pay 10% of the total entry fee.</p>
+            <p class="animated">Total Balance</p>
+            <p class="animated">The Total Balance displayed in your Your11 account is the sum of all other amounts i.e. Deposited, Winnings and the Bonus received.</p>
+           
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container-xl">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <img src="logo.png" alt="Star25Pro Logo" class="footer-logo-image">
+                    </div>
+                    <p>Best fantasy sports platform in India.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About Us</a>
+                    <a href="howtoplay.html">How to Play</a>
+                    <a href="legality.html">Legality</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <a href="rules.html">Rules</a>
+                    <a href="contact.html">Contact Us</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Download App</h4>
+                    <button class="btn btn-primary">DOWNLOAD</button>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Star25Pro. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- === Scroll Reveal Animation Script === -->
+    <script>
+    // Simple scroll animation for ".animated" elements
+    function animateOnScroll() {
+        var elems = document.querySelectorAll('.animated');
+        var windowBottom = window.innerHeight + window.scrollY;
+        elems.forEach(function(elem) {
+            var elemTop = elem.getBoundingClientRect().top + window.scrollY;
+            if (windowBottom > elemTop + 40) {
+                elem.classList.add('visible');
+            } else {
+                elem.classList.remove('visible');
+            }
+        });
+    }
+    window.addEventListener('scroll', animateOnScroll);
+    window.addEventListener('DOMContentLoaded', animateOnScroll);
+    </script>
+    
+    <script src="script.js"></script>
+</body>
+</html>
